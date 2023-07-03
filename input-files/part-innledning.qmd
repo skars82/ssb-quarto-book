@@ -1,0 +1,3 @@
+# Innledning
+
+Her kan man si noe overordnet om innholdet i underkapitlene i part 1. En part er et overbygg til samling kapitler. Man må ikke bruke det, men det passer fint med slik vi har satt denne type dokumenter tidligere. 

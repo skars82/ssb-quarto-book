@@ -1,0 +1,60 @@
+project:
+  type: book
+  output-dir: ../docs
+
+bibliography: referanser.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    backgroundcolor: "#ffffff" # SSB white
+    linkcolor: "#00824D" # SSB green
+    fontcolor: "#274247" # SSB dark blue
+    mainfont: Open sans
+
+book:
+  title: "Mal for webbasert SSB-bok"
+  author:
+    - Ola Statistikker
+  date: "01/01/2024"
+  sidebar:
+    collapse-level: 1
+  navbar:
+    search: true
+    logo: media/SSB_logo_black.png
+    logo-href: https://www.ssb.no/
+    logo-alt: "SSB sin logo"
+    # Colour is "Dark 1" from https://design.ssb.no/#/components/color
+    background: "#F0F8F9"
+    # Colour is "Dark 5" from https://design.ssb.no/#/components/color
+    foreground: "#274247"
+    right:
+      - icon: github
+        url: https://github.com/statisticsnorway/ssb-quarto-book
+        aria-label: GitHub-repo for boken
+  page-footer:
+    center:
+      - text: "NOTATER YYYY/NR"
+  chapters:
+    - index.qmd
+    - sammendrag.qmd
+    - part: part-innledning.qmd
+      chapters:
+      - test.qmd
+      - test2.qmd
+    - part: part-hoveddel.qmd
+      chapters:
+      - test3.qmd
+      - test4.qmd
+    - part: part-avslutning.qmd
+      chapters:
+      - test5.qmd
+      - test6.qmd
+    - konklusjon.qmd
+    - referanser.qmd
+  appendices:
+    - vedleggA.qmd
+    - vedleggB.qmd
+    

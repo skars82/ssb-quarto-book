@@ -1,0 +1,17 @@
+---
+toc: false
+---
+
+# Forord {.unnumbered}
+
+På denne siden skriver du forordet til boken. Det er kort beskrivelse av boken inneholder og er ofte underskrevet av nærmeste leder. 
+
+Statistisk sentralbyrå, Januar 2024  
+Kim Leder
+
+---
+©️Statistisk sentralbyrå  
+Ved bruk av materiale fra denne publikasjonen
+skal Statistisk sentralbyrå oppgis som kilde.
+
+ISBN 999-99-999-999
